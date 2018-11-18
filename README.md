@@ -1,1 +1,1 @@
-# Mitropoulos-Cpp-Programming
+# Mitropoulos C++ Programming Course
