@@ -18,3 +18,28 @@ int age (21);
 // C++ 11 list initialization syntax
 int age {21}; 
 ```
+
+### Global vs Local Variables
+
+Local
+
+```
+int main()
+{
+  int age{21}; 
+  cout << age << endl;
+  return 0;
+ }
+ ```
+ 
+ Global variable
+ 
+ ```
+int age{21};
+
+int main()
+{
+  cout << age << endl;
+  return 0;
+ }
+ ```
