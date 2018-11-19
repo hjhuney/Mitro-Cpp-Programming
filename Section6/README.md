@@ -1,4 +1,4 @@
-# Section 6 Notes: Variables + Constructs
+# Section 6 Notes: Variables + Constants
 
 ### Declaring and initializing variables
 
@@ -80,4 +80,24 @@ sizeof(some_variable)
 ```
 
 sizeof operator gets its info from 2 C++ include files, **climits** and **cfloat**. 
+
+
+### Constants
+
+Similar to varaibles, but their values can't be changed once declared (sort of like "values" in Scala). Useful when we don't want to be able to change a value (e.g. months in a year is always "12")
+
+Integer Literal Constants
+* 12 --- an integer
+* 12U --- an unsigned integer
+* 12L --- a long integer
+* 12LL --- a long long integer
+
+Floating point literal constants
+* 12.1 --- a double
+* 12.1F --- a float
+* 12.1L --- a long double
+
+Character literal constants
+* \n --- newline
+* \r --- return
 
