@@ -69,3 +69,15 @@ Boolean
 * non-zero is true
 * "true" and "false" keywords
 
+### Sizeof Operator
+
+Determines size in bytes of a type or variable
+
+```
+sizeof(int)
+sizeof(double)
+sizeof(some_variable)
+```
+
+sizeof operator gets its info from 2 C++ include files, **climits** and **cfloat**. 
+
