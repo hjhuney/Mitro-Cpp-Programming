@@ -41,3 +41,31 @@ int main()
   return 0;
  }
  ```
+ 
+### Primitive Data Types
+
+Character types
+* char: Exactly one byte; at least 8 bits; works for most languages
+* char16_t: At least 16 bits
+* char32_t: At least 32 bits
+* wchar_t
+* The larger character type may be used for languages with thousands of characters
+
+Integer types
+* can declare "signed" or "unsigned"; "signed" by default; must use "unsigned" keyword to declare unsigned
+* short: at least 16 bits
+* int: at least 16 bits
+* long: at least 32 bits
+* long long: at least 64 bits
+* unsigned: an unsigned int
+
+Floating-point types
+* float: 7 decimal digit precision
+* double: 15 decimal digits
+* long double: 19 decimal digits
+
+Boolean
+* zero is false
+* non-zero is true
+* "true" and "false" keywords
+
