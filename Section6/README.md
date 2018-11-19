@@ -97,7 +97,20 @@ Floating point literal constants
 * 12.1F --- a float
 * 12.1L --- a long double
 
-Character literal constants
+Character literal constants (escape codes)
 * \n --- newline
 * \r --- return
+* \t ---tab
+* \b --- backspace
+* \' --- single quote
+* \" --- double quote
+* \\ --- backslash
+
+Declared constants (using "const" keyword)
+* const double pi {3.1415};
+* const int months_in_year {12};
+
+Defined constants (old C++ code; don't use)
+* #define pi 3.1415
+
 
