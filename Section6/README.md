@@ -21,20 +21,18 @@ int age {21};
 
 ### Global vs Local Variables
 
-Local
-
 ```
 int main()
 {
+  // local variable
   int age{21}; 
   cout << age << endl;
   return 0;
  }
  ```
  
- Global variable
- 
  ```
+// global variable
 int age{21};
 
 int main()
