@@ -44,4 +44,14 @@ const double days_in_year {365} {0}; // init all to 0
 
 // int array with size automatically calculated
 int another_array {1,2,3,4,5}; // size automatically calculated
+
+### Accessing Array Elements
+
+```
+// initialize array
+int test_scores [5] {100, 95, 99, 86, 88};
+
+// access 2nd element
+test_scores[1];
+
 ```
