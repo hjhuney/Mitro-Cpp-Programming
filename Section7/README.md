@@ -53,7 +53,7 @@ int another_array {1,2,3,4,5}; // size automatically calculated
 // initialize array
 int test_scores [5] {100, 95, 99, 86, 88};
 
-// access 2nd element
+// access 2nd element of "95"
 test_scores[1];
 
 ```
