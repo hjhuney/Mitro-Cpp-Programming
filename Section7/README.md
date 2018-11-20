@@ -25,6 +25,7 @@ const double days_in_year {365};
 // double array
 double hi_temperatures [days_in_year];
 ```
+
 Better practice is typically to initialize arrays
 
 
@@ -44,6 +45,7 @@ const double days_in_year {365} {0}; // init all to 0
 
 // int array with size automatically calculated
 int another_array {1,2,3,4,5}; // size automatically calculated
+```
 
 ### Accessing Array Elements
 
