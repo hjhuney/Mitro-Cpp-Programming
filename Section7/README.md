@@ -57,3 +57,7 @@ int test_scores [5] {100, 95, 99, 86, 88};
 test_scores[1];
 
 ```
+
+### Name of Array is Memory Location
+
+One thing very different from Python is that the name of the array is the memory address for where array is located. Whereas in Python, calling the array name would simply give you the array, in C++, you'll get that memory address instead. You need to slice in order to get the elements of the array. 
