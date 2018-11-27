@@ -26,8 +26,8 @@ num1 = num2 = 1000l;
 
 ### Arithmetic Operators
 
-+ addition<br>
-- subtraction
+addition + <br>
+subtraction - 
 * multiplication
 
 
