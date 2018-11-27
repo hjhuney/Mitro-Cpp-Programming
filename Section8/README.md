@@ -93,3 +93,15 @@ average = static_cast<double>(total_amt) / total_num;
 cout << average << endl;
 // displays 12.5
 ```
+
+### Testing for Equality
+
+The == operator for equality
+The != operator tests for inequality 
+
+### Relational Operators
+
+greater than >
+greater than or equal to >=
+less than <
+three-way comparison <=> (not until C++ 20)
