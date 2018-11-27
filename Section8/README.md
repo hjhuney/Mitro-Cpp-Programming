@@ -118,8 +118,9 @@ or ||
 
 ### Compound Assignment Operators
 
-* +=
+\+=
 ```
 l += r;
 // l equals l + r
+
 '''
