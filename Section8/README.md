@@ -105,3 +105,21 @@ greater than >
 greater than or equal to >=
 less than <
 three-way comparison <=> (not until C++ 20)
+
+### Logical Operators
+
+not !
+and &&
+or ||
+
+**Precedence**
+* not higher precedence than and
+* and higher precedence than or
+
+### Compound Assignment Operators
+
+* +=
+```
+l += r;
+// l equals l + r
+'''
