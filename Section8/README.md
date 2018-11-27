@@ -75,4 +75,21 @@ result = counter++;
 // since counter had post-increment "++" operator
 ```
 
+### Mixed Type Expressions
 
+
+Explicit type casting
+
+``` 
+int total_amt {100};
+int total_num {12};
+double average {0.0}
+
+average = total_amt / total_num;
+cout << average << endl;
+// displays 12
+
+average = static_cast<double>(total_amt) / total_num;
+cout << average << endl;
+// displays 12.5
+```
