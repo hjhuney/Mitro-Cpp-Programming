@@ -32,4 +32,47 @@ multiplication * <br>
 division / <br>
 modulo % <br>
 
+### Increment and Decrement Operators
+
+Increment operator ++
+Decrement operator --
+
+Prefix notation ++ num
+Postfix notation num ++ 
+
+```
+int counter {10};
+
+// simple increment makes counter 11
+counter = counter + 1;
+
+// increment operator prefix makes counter 12
+counter ++;
+
+// increment operator postfix makes counter 13
+++ counter;
+```
+
+pre-increment
+```
+int counter {10};
+int result {0};
+
+result = ++counter;
+
+// both counter and result are equal to 11
+// since counter had pre-increment "++" operator
+```
+
+post-increment
+```
+int counter {10};
+int result {0};
+
+result = counter++;
+
+// counter is now equal to 11, but result still equals 10
+// since counter had post-increment "++" operator
+```
+
 
