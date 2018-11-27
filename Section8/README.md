@@ -28,6 +28,8 @@ num1 = num2 = 1000l;
 
 addition + <br>
 subtraction - 
-* multiplication
+multiplication * 
+division / 
+modulo %
 
 
