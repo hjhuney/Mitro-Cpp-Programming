@@ -118,9 +118,16 @@ or ||
 
 ### Compound Assignment Operators
 
-\+=
-```
-l += r;
-// l equals l + r
+lhs -> left hand side
+rhs -> right hand side
 
-'''
+\+= lhs equals lhs plus rhs
+\-= lhs equals lhs minus rhs
+\*= lhs equals lhs multiplied by rhs
+\/= lhs equals lhs divided by rhs
+\%= lhs equals the remainder of lhs divided by rhs
+\>>=
+\<<=
+\&=
+\^=
+\!= 
