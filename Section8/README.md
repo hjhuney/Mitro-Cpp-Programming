@@ -27,9 +27,9 @@ num1 = num2 = 1000l;
 ### Arithmetic Operators
 
 addition + <br>
-subtraction - 
-multiplication * 
-division / 
-modulo %
+subtraction - <br>
+multiplication * <br>
+division / <br>
+modulo % <br>
 
 
