@@ -48,6 +48,42 @@ if (num > 10) {
 }
 ```
 
+## If-Else Statements
+
+Examples 
+
+```
+if (num > 10)
+  ++num;
+else
+  num = 10;
+```
+
+If-else with block statement
+
+```
+if (num > 10){
+  ++num;
+  cout << "increment";
+} else {
+  num = 10;
+  cout << "Reset";
+}
+```
+
+If with else if statements
+
+```
+if (score > 90)
+  cout << "A";
+else if (score > 80)
+  cout << "B";
+else if (score > 70)
+  cout << "C";
+else
+  cout << "F";
+````
+
 
 
 
